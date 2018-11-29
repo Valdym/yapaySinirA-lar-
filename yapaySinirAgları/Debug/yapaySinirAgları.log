@@ -1,0 +1,8 @@
+﻿  MyForm.cpp
+c:\users\asusnb\desktop\ceng-2018\yapay sinir ağları\yapaysiniragları\yapaysiniragları\MyForm.h(337): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\asusnb\desktop\ceng-2018\yapay sinir ağları\yapaysiniragları\yapaysiniragları\MyForm.h(352): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\asusnb\desktop\ceng-2018\yapay sinir ağları\yapaysiniragları\yapaysiniragları\MyForm.h(366): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\asusnb\desktop\ceng-2018\yapay sinir ağları\yapaysiniragları\yapaysiniragları\MyForm.h(399): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\asusnb\desktop\ceng-2018\yapay sinir ağları\yapaysiniragları\yapaysiniragları\MyForm.h(414): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\asusnb\desktop\ceng-2018\yapay sinir ağları\yapaysiniragları\yapaysiniragları\MyForm.h(428): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  yapaySinirAgları.vcxproj -> C:\Users\AsusNb\Desktop\CENG-2018\Yapay Sinir Ağları\yapaySinirAgları\Debug\yapaySinirAgları.exe
