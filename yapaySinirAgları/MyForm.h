@@ -101,9 +101,6 @@ namespace yapaySinirAglarý {
 				 (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 				 this->menuStrip1->SuspendLayout();
 				 this->SuspendLayout();
-				 // 
-				 // pictureBox1
-				 // 
 				 this->pictureBox1->Location = System::Drawing::Point(27, 43);
 				 this->pictureBox1->Margin = System::Windows::Forms::Padding(2);
 				 this->pictureBox1->Name = L"pictureBox1";
@@ -111,12 +108,8 @@ namespace yapaySinirAglarý {
 				 this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 				 this->pictureBox1->TabIndex = 0;
 				 this->pictureBox1->TabStop = false;
-				 this->pictureBox1->Click += gcnew System::EventHandler(this, &MyForm::pictureBox1_Click);
 				 this->pictureBox1->Paint += gcnew System::Windows::Forms::PaintEventHandler(this, &MyForm::pictureBox1_Paint);
 				 this->pictureBox1->MouseClick += gcnew System::Windows::Forms::MouseEventHandler(this, &MyForm::tikla);
-				 // 
-				 // radioButton1
-				 // 
 				 this->radioButton1->AutoSize = true;
 				 this->radioButton1->Checked = true;
 				 this->radioButton1->Location = System::Drawing::Point(575, 83);
@@ -128,9 +121,6 @@ namespace yapaySinirAglarý {
 				 this->radioButton1->Text = L"Class 1";
 				 this->radioButton1->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 				 this->radioButton1->UseVisualStyleBackColor = true;
-				 // 
-				 // radioButton2
-				 // 
 				 this->radioButton2->AutoSize = true;
 				 this->radioButton2->Location = System::Drawing::Point(734, 83);
 				 this->radioButton2->Margin = System::Windows::Forms::Padding(2);
@@ -139,9 +129,6 @@ namespace yapaySinirAglarý {
 				 this->radioButton2->TabIndex = 2;
 				 this->radioButton2->Text = L"Class 2";
 				 this->radioButton2->UseVisualStyleBackColor = true;
-				 // 
-				 // menuStrip1
-				 // 
 				 this->menuStrip1->BackColor = System::Drawing::SystemColors::Control;
 				 this->menuStrip1->ImageScalingSize = System::Drawing::Size(20, 20);
 				 this->menuStrip1->Items->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(1) { this->actionsToolStripMenuItem });
@@ -151,48 +138,30 @@ namespace yapaySinirAglarý {
 				 this->menuStrip1->Size = System::Drawing::Size(885, 24);
 				 this->menuStrip1->TabIndex = 3;
 				 this->menuStrip1->Text = L"menuStrip1";
-				 // 
-				 // actionsToolStripMenuItem
-				 // 
 				 this->actionsToolStripMenuItem->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(3) {
 					 this->drawRandomLineToolStripMenuItem,
 						 this->discriminantFunctionToolStripMenuItem, this->exiToolStripMenuItem
 				 });
-				 this->actionsToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Comfortaa", 8.25F));
+				 this->actionsToolStripMenuItem->Font = (gcnew System::Drawing::Font(L"Comfortaa", 8.25));
 				 this->actionsToolStripMenuItem->Name = L"actionsToolStripMenuItem";
 				 this->actionsToolStripMenuItem->Size = System::Drawing::Size(62, 20);
 				 this->actionsToolStripMenuItem->Text = L"Ýþlemler";
-				 // 
-				 // drawRandomLineToolStripMenuItem
-				 // 
 				 this->drawRandomLineToolStripMenuItem->Name = L"drawRandomLineToolStripMenuItem";
 				 this->drawRandomLineToolStripMenuItem->Size = System::Drawing::Size(188, 22);
 				 this->drawRandomLineToolStripMenuItem->Text = L"Random çizme";
 				 this->drawRandomLineToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::drawRandomLineToolStripMenuItem_Click);
-				 // 
-				 // discriminantFunctionToolStripMenuItem
-				 // 
 				 this->discriminantFunctionToolStripMenuItem->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(1) { this->binaryToolStripMenuItem });
 				 this->discriminantFunctionToolStripMenuItem->Name = L"discriminantFunctionToolStripMenuItem";
 				 this->discriminantFunctionToolStripMenuItem->Size = System::Drawing::Size(188, 22);
 				 this->discriminantFunctionToolStripMenuItem->Text = L"1 Katmanlý Perceptron";
-				 // 
-				 // binaryToolStripMenuItem
-				 // 
 				 this->binaryToolStripMenuItem->Name = L"binaryToolStripMenuItem";
 				 this->binaryToolStripMenuItem->Size = System::Drawing::Size(107, 22);
 				 this->binaryToolStripMenuItem->Text = L"Binary";
 				 this->binaryToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::binaryToolStripMenuItem_Click);
-				 // 
-				 // exiToolStripMenuItem
-				 // 
 				 this->exiToolStripMenuItem->Name = L"exiToolStripMenuItem";
 				 this->exiToolStripMenuItem->Size = System::Drawing::Size(188, 22);
 				 this->exiToolStripMenuItem->Text = L"Çýkýþ";
 				 this->exiToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::exiToolStripMenuItem_Click);
-				 // 
-				 // label1
-				 // 
 				 this->label1->AutoSize = true;
 				 this->label1->Location = System::Drawing::Point(604, 175);
 				 this->label1->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
@@ -201,9 +170,6 @@ namespace yapaySinirAglarý {
 				 this->label1->TabIndex = 4;
 				 this->label1->Text = L"Týklanan Nokta : ";
 				 this->label1->Visible = false;
-				 // 
-				 // label2
-				 // 
 				 this->label2->AutoSize = true;
 				 this->label2->Location = System::Drawing::Point(604, 252);
 				 this->label2->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
@@ -212,9 +178,6 @@ namespace yapaySinirAglarý {
 				 this->label2->TabIndex = 5;
 				 this->label2->Text = L"Class 1 - Örnek Sayýsý : ";
 				 this->label2->Visible = false;
-				 // 
-				 // label4
-				 // 
 				 this->label4->AutoSize = true;
 				 this->label4->Location = System::Drawing::Point(572, 362);
 				 this->label4->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
@@ -223,9 +186,6 @@ namespace yapaySinirAglarý {
 				 this->label4->TabIndex = 7;
 				 this->label4->Text = L"Cycle : ";
 				 this->label4->Visible = false;
-				 // 
-				 // label8
-				 // 
 				 this->label8->AutoSize = true;
 				 this->label8->Location = System::Drawing::Point(604, 296);
 				 this->label8->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
@@ -234,9 +194,6 @@ namespace yapaySinirAglarý {
 				 this->label8->TabIndex = 9;
 				 this->label8->Text = L"Class 2 - Örnek Sayýsý : ";
 				 this->label8->Visible = false;
-				 // 
-				 // MyForm
-				 // 
 				 this->AutoScaleDimensions = System::Drawing::SizeF(7, 15);
 				 this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 				 this->BackColor = System::Drawing::SystemColors::ControlDark;
@@ -249,7 +206,7 @@ namespace yapaySinirAglarý {
 				 this->Controls->Add(this->label1);
 				 this->Controls->Add(this->radioButton1);
 				 this->Controls->Add(this->radioButton2);
-				 this->Font = (gcnew System::Drawing::Font(L"Comfortaa", 8.25F));
+				 this->Font = (gcnew System::Drawing::Font(L"Comfortaa", 8.25));
 				 this->MainMenuStrip = this->menuStrip1;
 				 this->Margin = System::Windows::Forms::Padding(2);
 				 this->Name = L"MyForm";
@@ -273,8 +230,6 @@ namespace yapaySinirAglarý {
 		grafik->DrawLine(siyah, genislik / 2, 0, genislik / 2, yükseklik);
 		grafik->DrawLine(siyah, 0, yükseklik / 2, genislik, yükseklik / 2);
 
-	}
-	private: System::Void pictureBox1_Click(System::Object^  sender, System::EventArgs^  e) {
 	}
 	private: System::Void tikla(System::Object^  sender, System::Windows::Forms::MouseEventArgs^  e) {
 
@@ -464,7 +419,27 @@ namespace yapaySinirAglarý {
 		}
 		MessageBox::Show("     Tamamlandý!\n           Cycle: " + cycle, "Binary Sonucu");
 	}//BINARY PERCEPTRON
+	/*private: System::Void continousToolStripMenuItem_Click(System::Object^  sender, System::EventArgs^  e) {
+		float deltaAgirligi[3];
+		int d1 = -1, d2 = 1, O;
+		float hata = 1;
+		int net;
+		float fnet = 0;
+		float derivedFnet = 0;
+		fnet = 2 / 1 - (exp(net))
+		float cizilecekX, cizilecekY, cizilecekY2;
+		float m = 0.1;
+		Graphics^ dogruCizme = pictureBox1->CreateGraphics();
+		Pen^ siyah = gcnew Pen(Color::Black);
+		Pen^ yesil = gcnew Pen(Color::Green);
+		Pen^ kirmizi = gcnew Pen(Color::Red);
+		siyah->Width = 1, 6;
+		int cycle = 0;
 
+
+
+    }//CONTÝNOUS PERCEPTRON
+	*/
 	private: System::Void drawRandomLineToolStripMenuItem_Click(System::Object^  sender, System::EventArgs^  e) {
 		Pen^ siyah = gcnew Pen(Color::Black);
 		siyah->Width = 1;
@@ -485,8 +460,5 @@ namespace yapaySinirAglarý {
 	private: System::Void exiToolStripMenuItem_Click(System::Object^  sender, System::EventArgs^  e) {
 		Close();
 	}
-
-private: System::Void checkBox1_CheckedChanged(System::Object^  sender, System::EventArgs^  e) {
-}
 };
 }
